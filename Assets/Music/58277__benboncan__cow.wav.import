@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/58277__benboncan__cow.wav-0c67417d69378b84ca8119a71e97f7d1.sample"
+
+[deps]
+
+source_file="res://Assets/Music/58277__benboncan__cow.wav"
+dest_files=[ "res://.import/58277__benboncan__cow.wav-0c67417d69378b84ca8119a71e97f7d1.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
