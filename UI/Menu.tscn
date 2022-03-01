@@ -1,8 +1,9 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://UI/Menu.gd" type="Script" id=1]
 [ext_resource path="res://Assets/nepszabadsag/OTF/FFF_NEPSZA-BADSAG-Bold.otf" type="DynamicFontData" id=2]
 [ext_resource path="res://Assets/nepszabadsag/TTF/FFF_NEPSZA-BADSAG-Bold.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://Assets/kenney_animalpackredux/backgroundColorGrass.png" type="Texture" id=4]
 
 [sub_resource type="DynamicFont" id=1]
 size = 26
@@ -31,17 +32,14 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Background" type="ColorRect" parent="."]
-margin_left = 10.0
-margin_top = 10.0
-margin_right = 566.0
-margin_bottom = 482.0
-color = Color( 0, 0, 0, 0.501961 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 315.5, 551 )
+scale = Vector2( 1.06738, 1.21875 )
+texture = ExtResource( 4 )
 
 [node name="Label" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+self_modulate = Color( 0, 0, 0, 1 )
 margin_right = 576.0
 margin_bottom = 512.0
 theme = SubResource( 2 )

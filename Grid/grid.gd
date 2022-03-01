@@ -18,8 +18,7 @@ var possible_pieces = [
 	load("res://Pieces/Cow.tscn"),
 	load("res://Pieces/Duck.tscn"),
 	load("res://Pieces/Gorilla.tscn"),
-	load("res://Pieces/Narwhal.tscn"),
-	load("res://Pieces/Pig.tscn")
+	load("res://Pieces/Narwhal.tscn")
 ]
 
 var all_pieces

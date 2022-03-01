@@ -56,5 +56,9 @@ func die():
 		get_node("/root/Game/Gorilla").playing = true
 	if color == "Duck":
 		get_node("/root/Game/Duck").playing = true
-	if color == "Horse":
-		get_node("/root/Game/Horse").playing = true
+	if color == "Bear":
+		get_node("/root/Game/Bear").playing = true
+	if color == "Narwhal":
+		get_node("/root/Game/Narwhal").playing = true
+	if color == "Chick":
+		get_node("/root/Game/Chick").playing = true
